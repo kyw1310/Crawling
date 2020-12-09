@@ -36,10 +36,6 @@ total=driver.find_element_by_css_selector('#section_review > div.filter_sort_gro
 
 total_num=int(total.replace(',','').replace(')','').replace('(',''))
 
-#a=driver.find_element_by_css_selector('#container > div.summary_area > div.summary_info._itemSection > div > div.h_area > h2').text
-
-
-#driver.find_element_by_css_selector('#snb > ul > li.mall_review > a').click()
 
 print('전체리뷰수:',total_num)
 x=int(input('몇개의 리뷰를 가져오시겠습니까'))
